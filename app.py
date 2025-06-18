@@ -4,7 +4,7 @@ import joblib
 
 # Load the trained model
 model = joblib.load('heslb_rf_model.pkl')
-
+ 
 # App title
 st.title('HESLB Loan Eligibility Prediction')
 
