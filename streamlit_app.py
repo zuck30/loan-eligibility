@@ -62,4 +62,4 @@ if st.button('Predict'):
     prediction = model.predict(input_data)[0]
     probability = model.predict_proba(input_data)[0][1]
     st.write(f'**Eligibility:** {"Eligible" if prediction == 1 else "Not Eligible"}')
-    st.write(f'**Probability of Eligibility:** {probability:.2f}')
+    st.write(f'**Probability of Eligibility:** {probability:.2f}') 
