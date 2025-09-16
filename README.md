@@ -86,6 +86,15 @@
   Probability: 85%
   ```
 
+<h2>🚀 Deployment</h2>
+
+This application is ready to be deployed on Render.
+
+### Render Configuration
+
+-   **Build Command**: `./build.sh`
+-   **Start Command**: `gunicorn -w 4 -k uvicorn.workers.UvicornWorker backend.main:app`
+
 
 <h2>☕️ Support the Project</h2>
 <p>

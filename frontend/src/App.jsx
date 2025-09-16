@@ -47,7 +47,7 @@ function App() {
     e.preventDefault();
     setError(null);
     try {
-      const response = await axios.post('http://localhost:8000/predict', formData);
+      const response = await axios.post('/predict', formData);
       setPrediction(response.data);
     } catch (err) {
       setError('An error occurred while making the prediction.');
