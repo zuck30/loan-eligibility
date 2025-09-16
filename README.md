@@ -19,26 +19,26 @@
 
 <ul>
     <li>🔭 Predicts <a href="https://www.heslb.go.tz">HESLB</a> loan eligibility for Tanzanian students.</li>
-    <li>👨‍💻 Built with Streamlit and Random Forest for a user-friendly experience.</li>
+    <li>👨‍💻 Built with React and FastAPI for a modern, user-friendly experience.</li>
     <li>📊 Provides real-time predictions with probability scores.</li>
 </ul>
 
 <h2 id="skills">Skills & Technologies</h2>
 
 **Frontend & Backend**
-![ends](https://skillicons.dev/icons?i=js,css,html,python&perline=10)
+![ends](https://skillicons.dev/icons?i=js,css,html,python,react,vite,fastapi&perline=10)
 
 **Machine Learning**
 ![ML](https://skillicons.dev/icons?i=scikitlearn&perline=10)
 
 **Tools**
-![tools](https://skillicons.dev/icons?i=git,github,vscode,coffeescript&perline=10)
+![tools](https://skillicons.dev/icons?i=git,github,vscode&perline=10)
 
 <h2>Project Overview</h2>
 
 **Loan eligibility** is a web application designed to help Tanzanian students assess their eligibility for Higher Education Students' Loans Board (HESLB) loans. Users input details like citizenship, academic performance, and family income, and a pre-trained Random Forest model predicts eligibility with a confidence score.
 
-- **Intuitive Interface**: Streamlit-powered form for easy input.
+- **Intuitive Interface**: React-powered form for easy input.
 - **Real-Time Predictions**: Instant results with "Eligible" or "Not Eligible" status.
 - **Probability Scores**: Shows confidence in the prediction.
 - **Tanzanian Focus**: Tailored for HESLB’s loan criteria.
@@ -47,6 +47,7 @@
 
 ### Prerequisites
 - Python 3.7+
+- Node.js and npm
 - pip (Python package installer)
 
 ### Installation
@@ -56,35 +57,43 @@
    cd heslb-loan-prediction
    ```
 
-2. **Create a virtual environment**:
+2. **Backend Setup**:
    ```bash
+   # Create a virtual environment
    python -m venv venv
-   ```
-   - Windows: `.\venv\Scripts\activate`
-   - macOS/Linux: `source venv/bin/activate`
-
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
+   # Activate it
+   # Windows: .\\venv\\Scripts\\activate
+   # macOS/Linux: source venv/bin/activate
+   # Install dependencies
+   pip install -r backend/requirements.txt
    ```
 
-4. **Run the application**:
-   ```bash
-   streamlit run app.py
-   ```
+3. **Frontend Setup**:
+    ```bash
+    cd frontend
+    npm install
+    cd ..
+    ```
 
-5. **Access the app**:
-   - Open [http://localhost:8501](http://localhost:8501) in your browser.
-   - Enter student details and click "Predict" to see results.
+<h2>Local Development</h2>
 
-<h2>📊 Example Output</h2>
+To run the application locally, you will need to run the backend and frontend servers in separate terminals.
 
-- **Input**: Citizenship (Tanzanian), GPA (3.5), Family Income (Low)
-- **Output**: 
-  ```
-  Prediction: Eligible
-  Probability: 85%
-  ```
+**1. Run the Backend Server:**
+```bash
+# From the project root
+cd backend
+uvicorn main:app --reload --port 8001
+```
+The backend server will be running at `http://localhost:8001`.
+
+**2. Run the Frontend Server:**
+```bash
+# From the project root, in a new terminal
+cd frontend
+npm run dev
+```
+The frontend development server will be running at `http://localhost:5173`. Open this URL in your browser to use the application.
 
 <h2>🚀 Deployment</h2>
 
@@ -118,7 +127,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <h2>🙏 Acknowledgments</h2>
 
-- Streamlit for its intuitive web framework.
+- React and FastAPI for a great developer experience.
 - Scikit-learn for robust machine learning tools.
 - HESLB for inspiring this project.
 
