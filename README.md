@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=43CEA2&center=true&vCenter=true&width=500&height=70&lines=HESLB+Loan+Prediction;🇹🇿+Student+Eligibility;Streamlit+Web+App;Random+Forest+Model;Built+by+Zuck30" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4000&pause=1000&color=43CEA2&center=true&vCenter=true&width=500&height=70&lines=Loan+Eligibility;Random+Forest+Model;Built+by+Zuck30" alt="Typing Animation" />
 </div>
 
-![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20HESLB%20Loan%20App&textBg=false&desc=(Empowering+Tanzanian+Students)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
+![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20Loan%20Eligibility%20Prediction&textBg=false&desc=(Tanzania)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
+
 <p align="center">A web app for predicting HESLB loan eligibility for Tanzanian students using a Random Forest model. Built by <strong><a href="https://github.com/zuck30">Zuck30</a></strong> from <strong><a href="https://www.google.com/travel/things-to-do?dest_src=ut&dest_mid=%2Fm%2F0htfv">Tanzania</a></strong>.</p>
 
 <h3>Quick Links</h3>
@@ -10,7 +11,7 @@
 <div align="left">
     <a href="mailto:mwalyangashadrack@gmail.com"><img src="https://img.shields.io/badge/Mail%20me-30302f?style=flat-square&logo=gmail" alt="Email"></a>
     <a href="https://sheddysilicon.netlify.app"><img src="https://img.shields.io/badge/Portfolio-30302f?style=flat-square&logo=firefox" alt="Portfolio"></a>
-    <a href="https://github.com/zuck30/heslb-loan-prediction"><img src="https://img.shields.io/badge/Repository-30302f?style=flat-square&logo=github" alt="GitHub"></a>
+    <a href="https://github.com/zuck30/loan-eligibility"><img src="https://img.shields.io/badge/Repository-30302f?style=flat-square&logo=github" alt="GitHub"></a>
 </div>
 
 <br>
@@ -26,15 +27,15 @@
 <h2 id="skills">Skills & Technologies</h2>
 
 **Frontend & Backend**
-![My Skills](https://skillicons.dev/icons?i=streamlit,python&perline=10)
+![ends](https://skillicons.dev/icons?i=streamlit,python&perline=10)
 
 **Machine Learning**
-![My Skills](https://skillicons.dev/icons?i=scikitlearn&perline=10)
+![ML](https://skillicons.dev/icons?i=scikitlearn&perline=10)
 
 **Tools**
-![My Skills](https://skillicons.dev/icons?i=git,github,vscode&perline=10)
+![tools](https://skillicons.dev/icons?i=git,github,vscode&perline=10)
 
-<h2>🌟 Project Overview</h2>
+<h2>Project Overview</h2>
 
 **HESLB Loan Eligibility Prediction App** is a Streamlit web application designed to help Tanzanian students assess their eligibility for Higher Education Students' Loans Board (HESLB) loans. Users input details like citizenship, academic performance, and family income, and a pre-trained Random Forest model predicts eligibility with a confidence score.
 
@@ -43,7 +44,7 @@
 - **Probability Scores**: Shows confidence in the prediction.
 - **Tanzanian Focus**: Tailored for HESLB’s loan criteria.
 
-<h2>🚀 Quick Start</h2>
+<h2>Quick Start</h2>
 
 ### Prerequisites
 - Python 3.7+
@@ -119,4 +120,4 @@ For questions or issues, open a GitHub issue or contact [mwalyangashadrack@gmail
 
 <h2>🎉 Get Started!</h2>
 
-Help Tanzanian students plan their education with **HESLB Loan Eligibility Prediction App**! Share your feedback and contribute to its growth. 🇹🇿📚
+Help Tanzanian students plan their education with **Loan Eligibility Prediction**! Share your feedback and contribute to its growth. 
