@@ -1,6 +1,6 @@
-streamlit
-paho-mqtt
 pandas
 numpy
 joblib
 scikit-learn
+fastapi
+uvicorn
