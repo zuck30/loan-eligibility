@@ -26,17 +26,17 @@
 <h2 id="skills">Skills & Technologies</h2>
 
 **Frontend & Backend**
-![ends](https://skillicons.dev/icons?i=streamlit,python&perline=10)
+![ends](https://skillicons.dev/icons?i=js,css,html,python&perline=10)
 
 **Machine Learning**
 ![ML](https://skillicons.dev/icons?i=scikitlearn&perline=10)
 
 **Tools**
-![tools](https://skillicons.dev/icons?i=git,github,vscode&perline=10)
+![tools](https://skillicons.dev/icons?i=git,github,vscode,coffeescript&perline=10)
 
 <h2>Project Overview</h2>
 
-**HESLB Loan Eligibility Prediction App** is a Streamlit web application designed to help Tanzanian students assess their eligibility for Higher Education Students' Loans Board (HESLB) loans. Users input details like citizenship, academic performance, and family income, and a pre-trained Random Forest model predicts eligibility with a confidence score.
+**Loan eligibility** is a web application designed to help Tanzanian students assess their eligibility for Higher Education Students' Loans Board (HESLB) loans. Users input details like citizenship, academic performance, and family income, and a pre-trained Random Forest model predicts eligibility with a confidence score.
 
 - **Intuitive Interface**: Streamlit-powered form for easy input.
 - **Real-Time Predictions**: Instant results with "Eligible" or "Not Eligible" status.
