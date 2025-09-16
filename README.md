@@ -4,10 +4,9 @@
 
 ![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20Loan%20Eligibility%20Prediction&textBg=false&desc=(Tanzania)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
 
-<p align="center">A web app for predicting HESLB loan eligibility for Tanzanian students using a Random Forest model. Built by <strong><a href="https://github.com/zuck30">Zuck30</a></strong> from <strong><a href="https://www.google.com/travel/things-to-do?dest_src=ut&dest_mid=%2Fm%2F0htfv">Tanzania</a></strong>.</p>
+<p align="center">A web app for predicting loan eligibility for Tanzanian students using a Random Forest model. Built by <strong><a href="https://github.com/zuck30">Zuck30</a></strong> from <strong><a href="https://www.google.com/travel/things-to-do?dest_src=ut&dest_mid=%2Fm%2F0htfv">Tanzania</a></strong>.</p>
 
 <h3>Quick Links</h3>
-
 <div align="left">
     <a href="mailto:mwalyangashadrack@gmail.com"><img src="https://img.shields.io/badge/Mail%20me-30302f?style=flat-square&logo=gmail" alt="Email"></a>
     <a href="https://sheddysilicon.netlify.app"><img src="https://img.shields.io/badge/Portfolio-30302f?style=flat-square&logo=firefox" alt="Portfolio"></a>
@@ -15,7 +14,7 @@
 </div>
 
 <br>
-<a href="https://github.com/zuck30/heslb-loan-prediction"> <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="40%" align="right" style="border-radius:10px; animation: float 6s ease-in-out infinite;" alt="Coding GIF">
+<a href="https://github.com/zuck30/loan-eligibility"> <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="40%" align="right" style="border-radius:10px; animation: float 6s ease-in-out infinite;" alt="Coding GIF">
 </a>
 
 <ul>
