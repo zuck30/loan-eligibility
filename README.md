@@ -113,14 +113,7 @@ We welcome contributions to improve predictions and usability! See the [CONTRIBU
 
 <h2>📄 License</h2>
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-<div align="center">
-<blockquote>
-<p><em>"Empowering Tanzanian students with data driven insights."</em></p>
-<p><strong>— Zuck30</strong></p>
-</blockquote>
-</div>
+This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
 
 <h2>🙏 Acknowledgments</h2>
 
