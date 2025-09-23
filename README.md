@@ -124,7 +124,3 @@ This project is licensed under the MIT License, see the [LICENSE](LICENSE) file 
 <h2>📞 Support</h2>
 
 For questions or issues, open a GitHub issue or contact [mwalyangashadrack@gmail.com](mailto:mwalyangashadrack@gmail.com).
-
-<h2>🎉 Get Started!</h2>
-
-Help Tanzanian students plan their education with **Loan Eligibility Prediction**! Share your feedback and contribute to its growth. 
