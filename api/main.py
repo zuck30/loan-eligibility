@@ -1,25 +1,10 @@
-import os
 from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
-from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
 import joblib
-from fastapi.responses import FileResponse
 
 # Create a FastAPI app
 app = FastAPI()
-
-# Add CORS middleware for development
-# This will allow the frontend dev server to talk to the backend
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Allow frontend dev server
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 
 # Load the trained model
 model = joblib.load('heslb_rf_model.pkl')
@@ -37,7 +22,7 @@ class LoanApplication(BaseModel):
     Orphan: int
     Parents_Disability: int
 
-@app.post('/predict')
+@app.post('/api/predict')
 def predict(data: LoanApplication):
     # Convert input data to a pandas DataFrame
     input_data = pd.DataFrame([data.dict()])
@@ -74,17 +59,3 @@ def predict(data: LoanApplication):
         'eligibility': 'Eligible' if prediction == 1 else 'Not Eligible',
         'probability': float(probability)
     }
-
-# Serve the frontend only in production
-# Check if the 'frontend/dist' directory exists
-if os.path.exists('frontend/dist'):
-    app.mount('/assets', StaticFiles(directory='frontend/dist/assets'), name='assets')
-
-    @app.get("/")
-    async def read_index():
-        return FileResponse('frontend/dist/index.html')
-
-    @app.get("/{catchall:path}")
-    async def read_catchall(catchall: str):
-        # This is to make sure that the frontend routing works
-        return FileResponse('frontend/dist/index.html')
