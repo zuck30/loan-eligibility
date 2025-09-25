@@ -1,9 +1,5 @@
+fastapi
 pandas
 numpy
-joblib
 scikit-learn
-fastapi
-uvicorn
-python-multipart
-Jinja2
-gunicorn
+joblib
