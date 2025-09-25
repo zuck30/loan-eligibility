@@ -25,7 +25,8 @@ dist-ssr
 *.sln
 *.sw?
 
-
+#caches
+__pycache__/
 
 
 .DS_Store
