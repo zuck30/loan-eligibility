@@ -57,9 +57,7 @@ function App() {
 
   return (
     <Box p={8}>
-      <Heading as="h1" mb={6} textAlign="center">
-        HESLB Loan Eligibility Prediction
-      </Heading>
+
       <InputForm
         formData={formData}
         handleChange={handleChange}

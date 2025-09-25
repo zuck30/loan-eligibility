@@ -7,7 +7,7 @@ Thank you for your interest in contributing to the **Loan Eligibility Prediction
 Follow these steps to contribute to the project:
 
 ### 1. Fork the Repository
-- Navigate to the [HESLB Loan Eligibility Prediction App repository](https://github.com/zuck30/loan-eligibility) on GitHub.
+- Navigate to the [Loan Eligibility Prediction App repository](https://github.com/zuck30/loan-eligibility) on GitHub.
 - Click the **Fork** button to create a copy under your GitHub account.
 
 ### 2. Clone Your Fork
@@ -67,7 +67,7 @@ Follow these steps to contribute to the project:
   ```
 
 ### 8. Open a Pull Request
-- Go to the [HESLB Loan Eligibility Prediction App repository](https://github.com/zuck30/loan-eligibility).
+- Go to the [Loan Eligibility Prediction App repository](https://github.com/zuck30/loan-eligibility).
 - Click **New Pull Request** and select your branch.
 - Provide a detailed description, including:
   - What you changed and why.
