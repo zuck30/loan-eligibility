@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "installCommand": "npm install --prefix frontend && pip install -r api/requirements.txt",
   "builds": [
     {
-      "src": "frontend/**",
+      "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist"
@@ -10,7 +11,7 @@
     },
     {
       "src": "api/main.py",
-      "use": "@vercel/python"
+      "use": "@vercel/nft"
     }
   ],
   "routes": [
@@ -19,12 +20,8 @@
       "dest": "api/main.py"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "frontend/$1"
     }
   ]
 }
