@@ -11,7 +11,7 @@
     },
     {
       "src": "api/main.py",
-      "use": "@vercel/nft"
+      "use": "@vercel/python"
     }
   ],
   "routes": [
