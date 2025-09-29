@@ -2,12 +2,17 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 import joblib
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
 
 # Create a FastAPI app
 app = FastAPI()
 
 # Load the trained model
-model = joblib.load('heslb_rf_model.pkl')
+# The model path is now relative to the project root
+model_path = os.path.join(os.path.dirname(__file__), 'heslb_rf_model.pkl')
+model = joblib.load(model_path)
 
 # Define the input data model
 class LoanApplication(BaseModel):
@@ -59,3 +64,15 @@ def predict(data: LoanApplication):
         'eligibility': 'Eligible' if prediction == 1 else 'Not Eligible',
         'probability': float(probability)
     }
+
+# Mount the static files directory
+# This will serve the compiled React frontend
+# The path is relative to where the server is run, which will be the project root
+app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
+
+@app.get("/{full_path:path}")
+async def serve_frontend(full_path: str):
+    """
+    Serve the frontend for any path that is not an API endpoint.
+    """
+    return FileResponse("frontend/dist/index.html")
