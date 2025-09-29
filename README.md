@@ -17,7 +17,7 @@
 <ul>
     <li>🔭 Predicts <a href="https://www.heslb.go.tz">HESLB</a> loan eligibility for Tanzanian students.</li>
     <li>👨‍💻 Built with React and FastAPI for a modern, user-friendly experience.</li>
-    <li>📊 Provides real-time predictions with probability scores.</li>
+    <li>📊 Provides real time predictions with probability scores.</li>
 </ul>
 
 <h2 id="skills">Skills & Technologies</h2>
@@ -50,8 +50,8 @@
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/zuck30/heslb-loan-prediction.git
-   cd heslb-loan-prediction
+   git clone https://github.com/zuck30/loan-eligibility.git
+   cd loan-eligibility
    ```
 
 2. **Backend Setup**:
