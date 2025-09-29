@@ -2,6 +2,7 @@
   command = "npm install --prefix frontend && pip install -r api/requirements.txt && npm run build --prefix frontend"
   publish = "frontend/dist"
   functions = "api"
+  image = "ubuntu-20.04"
 
 [[redirects]]
   from = "/api/*"
