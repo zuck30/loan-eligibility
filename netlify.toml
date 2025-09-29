@@ -1,9 +1,19 @@
+# Base build settings (for all contexts)
 [build]
   command = "npm install --prefix frontend && pip install -r api/requirements.txt && npm run build --prefix frontend"
   publish = "frontend/dist"
   functions = "api"
+
+# Production context: all deploys from the main branch will use these settings.
+[context.production]
+  # Use a stable Ubuntu 20.04 build image
   image = "ubuntu-20.04"
 
+  # Specify the environment variables for the production build
+  [context.production.environment]
+    PYTHON_VERSION = "3.11"
+
+# Redirects for the API and single-page application
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/main"
