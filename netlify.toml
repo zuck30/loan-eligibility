@@ -1,0 +1,14 @@
+[build]
+  command = "npm install --prefix frontend && pip install -r api/requirements.txt && npm run build --prefix frontend"
+  publish = "frontend/dist"
+  functions = "api"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/main"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

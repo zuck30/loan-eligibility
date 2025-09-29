@@ -62,7 +62,7 @@
    # Windows: .\\venv\\Scripts\\activate
    # macOS/Linux: source venv/bin/activate
    # Install dependencies
-   pip install -r backend/requirements.txt
+   pip install -r api/requirements.txt
    ```
 
 3. **Frontend Setup**:
@@ -79,7 +79,7 @@ To run the application locally, you will need to run the backend and frontend se
 **1. Run the Backend Server:**
 ```bash
 # From the project root
-cd backend
+cd api
 uvicorn main:app --reload --port 8001
 ```
 The backend server will be running at `http://localhost:8001`.
@@ -94,12 +94,15 @@ The frontend development server will be running at `http://localhost:5173`. Open
 
 <h2>🚀 Deployment</h2>
 
-This application is ready to be deployed on Render.
+This application is ready to be deployed on Netlify. Simply connect your GitHub repository to Netlify and configure the build settings as follows:
 
-### Render Configuration
+-   **Build Command**: `npm install --prefix frontend && pip install -r api/requirements.txt && npm run build --prefix frontend`
+-   **Publish directory**: `frontend/dist`
+-   **Functions directory**: `api`
 
--   **Build Command**: `./build.sh`
--   **Start Command**: `gunicorn -w 4 -k uvicorn.workers.UvicornWorker backend.main:app`
+Alternatively, you can deploy directly by clicking the button below:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zuck30/loan-eligibility)
 
 
 <h2>☕️ Support the Project</h2>
