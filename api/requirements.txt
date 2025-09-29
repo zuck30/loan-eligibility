@@ -1,5 +1,5 @@
-fastapi==0.111.0
-pandas==2.2.2
+fastapi==0.110.0
+pandas==2.2.1
 numpy==1.26.4
-scikit-learn==1.5.0
+scikit-learn==1.4.2
 joblib==1.4.2
