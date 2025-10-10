@@ -74,7 +74,7 @@
 
 <h2>Local Development</h2>
 
-To run the application locally, you will need to run the backend and frontend servers in separate terminals.
+To run the application locally, you will need to run the backend and frontend servers in separate terminals in your pc.
 
 **1. Run the Backend Server:**
 ```bash
@@ -108,7 +108,7 @@ This project is licensed under the MIT License, see the [LICENSE](LICENSE) file 
 
 <h2>🙏 Acknowledgments</h2>
 
-- React and FastAPI for a great developer experience.
+- React and FastAPI.
 - Scikit-learn for robust machine learning tools.
 - HESLB for inspiring this project.
 
