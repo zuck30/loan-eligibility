@@ -1,6 +1,6 @@
 # Contributing to Loan Eligibility Prediction App.
 
-Thank you for your interest in contributing to the **Loan Eligibility Prediction App**! This is a web application helps Tanzanian students predict their eligibility for Higher Education Students' Loans Board (HESLB) loans using a Random Forest model. Your contributions can enhance its accuracy, usability, and impact for students across Tanzania.Either you're improving the model, adding features, or enhancing documentation, we value your efforts!
+Thank you for your interest in contributing to the **Loan Eligibility Prediction Model**! This model helps Tanzanian students predict their eligibility for Higher Education Students' Loans Board (HESLB) loans using a Random Forest model. Your contributions can enhance its accuracy, usability, and impact for students across Tanzania.Either you're improving the model, adding features, or enhancing documentation, we value your efforts!
 
 ## How to Contribute
 
@@ -121,4 +121,4 @@ Follow these steps to contribute to the project:
 - Engage with the community via GitHub Discussions (if available).
 
 ## 🙏 Acknowledgments
-Thank you for contributing to the **Loan eligibility**! Your efforts help Tanzanian students make informed decisions about their education funding. Let’s empower the next generation together!
+Thank you for contributing to the **Loan eligibility repo**! Your efforts help Tanzanian students make informed decisions about their education funding. Let’s empower the next generation together!
