@@ -92,24 +92,6 @@ npm run dev
 ```
 The frontend development server will be running at `http://localhost:5173`. Open this URL in your browser to use the application.
 
-<h2>🚀 Deployment on Render</h2>
-
-This application is configured for easy deployment on [Render](https://render.com/).
-
-### Deployment Steps
-
-1.  **Create a new "Web Service"** on Render and connect it to your GitHub repository.
-2.  **Configure the service** with the following settings:
-    -   **Environment**: `Python`
-    -   **Region**: Choose your preferred region.
-    -   **Branch**: `main` (or your default branch).
-    -   **Root Directory**: Leave this blank (repository root).
-    -   **Build Command**: `./build.sh`
-    -   **Start Command**: `gunicorn -w 4 -k uvicorn.workers.UvicornWorker api.main:app`
-3.  **Click "Create Web Service"** and wait for the build and deployment to complete.
-
-Render will automatically detect your `requirements.txt` file and install the Python dependencies. The `build.sh` script will handle the frontend setup, and the start command will launch the unified application.
-
 
 <h2>☕️ Support the Project</h2>
 <p>
