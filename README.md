@@ -20,6 +20,15 @@
     <li>📊 Provides real time predictions with probability scores.</li>
 </ul>
 
+<h2 id="deployment">Deployment</h2>
+
+This project is deployed using a decoupled architecture:
+
+- **Backend (FastAPI)**: Hosted on [Render](https://render.com/).
+- **Frontend (React)**: Hosted on [Vercel](https://vercel.com/).
+
+You can deploy your own instance by following the instructions in the `render.yaml` and `vercel.json` files.
+
 <h2 id="skills">Skills & Technologies</h2>
 
 **Frontend & Backend**
@@ -74,15 +83,14 @@
 
 <h2>Local Development</h2>
 
-To run the application locally, you will need to run the backend and frontend servers in separate terminals in your pc.
+To run the application locally, you will need to run the backend and frontend servers in separate terminals.
 
 **1. Run the Backend Server:**
 ```bash
 # From the project root
-cd api
-uvicorn main:app --reload --port 8001
+uvicorn api.main:app --reload
 ```
-The backend server will be running at `http://localhost:8001`.
+The backend server will be running at `http://localhost:8000`.
 
 **2. Run the Frontend Server:**
 ```bash
@@ -90,7 +98,7 @@ The backend server will be running at `http://localhost:8001`.
 cd frontend
 npm run dev
 ```
-The frontend development server will be running at `http://localhost:5173`. Open this URL in your browser to use the application.
+The frontend development server will be running at `http://localhost:5173`. Open this URL in your browser to use the application. The frontend is configured to proxy API requests to the backend server running on port `8000`.
 
 
 <h2>☕️ Support the Project</h2>

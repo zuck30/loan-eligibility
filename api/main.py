@@ -2,12 +2,20 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 import joblib
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.middleware.cors import CORSMiddleware
 import os
 
 # Create a FastAPI app
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 # Load the trained model
 # The model path is now relative to the project root
@@ -64,15 +72,3 @@ def predict(data: LoanApplication):
         'eligibility': 'Eligible' if prediction == 1 else 'Not Eligible',
         'probability': float(probability)
     }
-
-# Mount the static files directory
-# This will serve the compiled React frontend
-# The path is relative to where the server is run, which will be the project root
-app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
-
-@app.get("/{full_path:path}")
-async def serve_frontend(full_path: str):
-    """
-    Serve the frontend for any path that is not an API endpoint.
-    """
-    return FileResponse("frontend/dist/index.html")
