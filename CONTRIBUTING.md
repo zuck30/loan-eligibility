@@ -14,7 +14,7 @@ Follow these steps to contribute to the project:
 - Clone your forked repository to your local machine:
   ```bash
   git clone https://github.com/zuck30/loan-eligibility.git
-  cd loan-eligibility
+  cd heslb-loan-prediction
   ```
 
 ### 3. Create a Feature Branch
