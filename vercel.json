@@ -1,17 +1,8 @@
 {
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "frontend/dist"
-      }
-    }
-  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://loan-eligibility-qdkj.onrender.com"
+      "destination": "https://loan-eligibility-qdkj.onrender.com/$1"
     }
   ]
 }
