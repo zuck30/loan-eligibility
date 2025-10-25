@@ -1,0 +1,9 @@
+[build]
+  base    = "frontend"
+  publish = "frontend/dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://loan-eligibility-qdkj.onrender.com/:splat"
+  status = 200

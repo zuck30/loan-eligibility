@@ -25,9 +25,9 @@
 This project is deployed using a decoupled architecture:
 
 - **Backend (FastAPI)**: Hosted on [Render](https://render.com/).
-- **Frontend (React)**: Hosted on [Vercel](https://vercel.com/).
+- **Frontend (React)**: Hosted on [Netlify](https://www.netlify.com/).
 
-You can deploy your own instance by following the instructions in the `render.yaml` and `vercel.json` files.
+You can deploy your own instance by following the instructions in the `render.yaml` and `netlify.toml` files.
 
 <h2 id="skills">Skills & Technologies</h2>
 

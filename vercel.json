@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "https://loan-eligibility-qdkj.onrender.com/$1"
-    }
-  ]
-}
