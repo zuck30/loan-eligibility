@@ -106,19 +106,10 @@ The frontend development server will be running at `http://localhost:5173`. Open
     <a href="https://www.buymeacoffee.com/zuck30" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="30px"></a>
 </p>
 
-<h2>🤝 Contributing</h2>
-
-We welcome contributions to improve predictions and usability! See the [CONTRIBUTING.md](CONTRIBUTING.md) file for details.
-
 <h2>📄 License</h2>
 
 This project is licensed under the MIT License, see the [LICENSE](LICENSE) file for details.
 
-<h2>🙏 Acknowledgments</h2>
-
-- React and FastAPI.
-- Scikit-learn for robust machine learning tools.
-- HESLB for inspiring this project.
 
 <h2>📞 Support</h2>
 
