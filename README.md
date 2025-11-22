@@ -15,7 +15,7 @@
 </a>
 
 <ul>
-    <li>🔭 Predicts <a href="https://www.heslb.go.tz">HESLB</a> loan eligibility for Tanzanian students.</li>
+    <li>🔭 Predicts loan eligibility for students.</li>
     <li>👨‍💻 Built with React and FastAPI for a modern, user-friendly experience.</li>
     <li>📊 Provides real time predictions with probability scores.</li>
 </ul>
@@ -32,12 +32,15 @@ You can deploy your own instance by following the instructions in the `render.ya
 <h2 id="skills">Skills & Technologies</h2>
 
 **Frontend & Backend**
+
 ![ends](https://skillicons.dev/icons?i=js,css,html,python,react,vite,fastapi&perline=10)
 
 **Machine Learning**
+
 ![ML](https://skillicons.dev/icons?i=scikitlearn&perline=10)
 
 **Tools**
+
 ![tools](https://skillicons.dev/icons?i=git,github,vscode&perline=10)
 
 <h2>Project Overview</h2>
