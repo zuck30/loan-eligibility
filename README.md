@@ -35,10 +35,6 @@ You can deploy your own instance by following the instructions in the `render.ya
 
 ![ends](https://skillicons.dev/icons?i=js,css,html,python,react,vite,fastapi&perline=10)
 
-**Machine Learning**
-
-![ML](https://skillicons.dev/icons?i=scikitlearn&perline=10)
-
 **Tools**
 
 ![tools](https://skillicons.dev/icons?i=git,github,vscode&perline=10)
