@@ -41,7 +41,7 @@ You can deploy your own instance by following the instructions in the `render.ya
 
 <h2>Project Overview</h2>
 
-**Loan eligibility** is a web application designed to help Tanzanian students assess their eligibility for Higher Education Students' Loans Board (HESLB) loans. Users input details like citizenship, academic performance, and family income, and a pre-trained Random Forest model predicts eligibility with a confidence score.
+**Loan eligibility** is a website designed to help Tanzanian students assess their eligibility for loans. Users input details like citizenship, academic performance, and family income, and a pre trained Random Forest model predicts eligibility with a confidence score.
 
 - **Intuitive Interface**: React-powered form for easy input.
 - **Real-Time Predictions**: Instant results with "Eligible" or "Not Eligible" status.
