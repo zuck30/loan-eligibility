@@ -253,7 +253,7 @@ const InputForm = ({ formData, handleChange, handleSliderChange, handleNumberCha
                 _focus={{ borderColor: 'blue.500', boxShadow: '0 0 0 1px blue.500' }}
                 size="md"
               >
-                <option value={0}>Not an Orphan</option>
+                <option value={0}>Not Orphan</option>
                 <option value={1}>Orphan</option>
               </Select>
             </FormField>
