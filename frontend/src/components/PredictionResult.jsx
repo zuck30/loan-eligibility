@@ -62,10 +62,10 @@ const PredictionResult = ({ prediction, error, isLoading }) => {
               <FaChartBar size={40} />
             </Box>
             <Heading as="h3" size="sm" color="gray.600">
-              Ready for Analysis
+              Ready to Analyze.
             </Heading>
             <Text color="gray.500" fontSize="sm">
-              Submit the form to get your eligibility assessment.
+              Submit the form to get your eligibility.
             </Text>
           </VStack>
         </CardBody>
