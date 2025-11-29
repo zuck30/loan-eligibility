@@ -50,7 +50,7 @@ function App() {
       const response = await axios.post('/api/predict', formData);
       setPrediction(response.data);
     } catch (err) {
-      setError('An error occurred while making the prediction.');
+      setError('Ooops! An error occurred while making the prediction.');
       console.error(err);
     }
   };
