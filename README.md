@@ -50,8 +50,8 @@
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/zuck30/heslb-loan-prediction.git
-   cd heslb-loan-prediction
+   git clone https://github.com/zuck30/loan-eligibility.git
+   cd loan-eligibility
    ```
 
 2. **Backend Setup**:
