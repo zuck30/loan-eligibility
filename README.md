@@ -46,7 +46,7 @@ You can deploy your own instance by following the instructions in the `render.ya
 - **Intuitive Interface**: React-powered form for easy input.
 - **Real Time Predictions**: Instant results with "Eligible" or "Not Eligible" status.
 - **Probability Scores**: Shows confidence in the prediction.
-- **Tanzanian Focus**: Tailored for HESLB’s loan criteria.
+- **Tanzanian Focus**: Tailored for Tanzania 
 
 <h2>Quick Start</h2>
 
