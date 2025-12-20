@@ -1,0 +1,10 @@
+setuptools>=65.5.0
+wheel
+fastapi
+pandas
+numpy
+scikit-learn
+joblib
+gunicorn
+python-multipart
+uvicorn

@@ -62,10 +62,10 @@ const PredictionResult = ({ prediction, error, isLoading }) => {
               <FaChartBar size={40} />
             </Box>
             <Heading as="h3" size="sm" color="gray.600">
-              Ready for Analysis
+              Ready to Analyze.
             </Heading>
             <Text color="gray.500" fontSize="sm">
-              Submit the form to get your eligibility assessment.
+              Submit the form for eligibility check.
             </Text>
           </VStack>
         </CardBody>
@@ -120,7 +120,7 @@ const PredictionResult = ({ prediction, error, isLoading }) => {
               <Text fontSize="xs" color="blue.700" fontWeight="medium">
                 {isEligible ? 
                   'Consider applying through our streamlined process' : 
-                  'Improve your GPA or reduce outstanding loans to increase eligibility'
+                  'Improve your GPA or complete the criteria to increase eligibility'
                 }
               </Text>
             </HStack>
